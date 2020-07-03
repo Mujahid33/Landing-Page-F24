@@ -23,6 +23,7 @@ header{
   color:white;
   height: 80px;
   width:100%;
+  animation: fadeIn 5s;
 }
 
 .logo{
@@ -33,6 +34,7 @@ header{
   font-weight: bold;
   padding:0 20px;
   line-height: 75px;
+  animation: fadeIn 5s;
 }
 
 header ul{
@@ -46,7 +48,16 @@ header li{
   display: inline-block;
   line-height: 78px;
   margin:0 10px;
-  
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity:1;
+  }
 }
 
 header a{
